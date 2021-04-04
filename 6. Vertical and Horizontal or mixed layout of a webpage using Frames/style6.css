@@ -1,0 +1,55 @@
+
+
+h1{
+    text-align: center;
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: text linear 8s infinite;
+    /* background-repeat: no-repeat; */
+    font-size: 5vh;
+    color: black;
+    text-shadow: 5px 3px 4px gray;
+}
+
+
+.container{
+    height: 80vh;
+    width: 100%;
+    /* position: absolute; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.layout{
+    width: 470px;
+}
+
+h2{
+    text-align: center;
+    /* border:2px solid red; */
+    height: 5vh;
+    width: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vh auto;
+    
+}
+
+
+@keyframes text{
+    0%{
+        transform: translateX(-16vw);
+    }
+    50%{
+        transform: translateX(16vw);
+    }
+    100%{
+        transform: translateX(-16vw);
+    } 
+}

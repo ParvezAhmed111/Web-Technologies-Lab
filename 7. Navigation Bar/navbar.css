@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(138, 43, 226, 0.2);
+}
+nav{
+    height: 76px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    font-size: 17px;
+    background-color: blueviolet;
+    /* border-radius: 20px; */
+    position: absolute;
+}
+
+
+nav a{
+    color: white;
+    text-decoration: none;
+    
+}
+/* main */
+nav .main ul{
+    display: flex;
+    justify-content: flex-start;
+
+
+}
+
+nav .main ul li{
+    margin: auto 20px;
+    padding: 13px 14px;
+    list-style: none;
+    transition: 0.5s;
+    background-color: blueviolet;
+    cursor: pointer;
+    
+}
+
+nav .main ul li:hover{
+    background-color: rgb(180, 104, 252);
+
+    color: white;
+}
+
+/* Services */
+
+nav .main ul ul{
+    position: absolute;
+    top: 63px;
+    display: none;
+}
+nav .main ul li:hover > ul{
+    display: block;
+}
+
+nav .main ul ul li{
+    border: 1px solid rgb(169, 85, 248);
+}
+
+
+/* Services web design */
+nav .main ul ul ul{
+    position: absolute;
+    left: 10.45vw;
+    top: 3.1vw;
+    width: 10vw;
+    display: none;
+    
+}
+
+nav .main ul ul li:hover > ul{
+    display: block;
+}
+
+/* Services -> web design -> front end */
+nav .main ul ul ul ul{
+    position: absolute;
+    left: 7.6vw;
+    display: none;
+}
+
+#fe{
+    top: 0vh;
+}
+#be{
+    top: 6.5vh;
+}
+#db{
+    top: 13.1vh;
+}
+nav .main ul ul ul li:hover > ul{
+    display: block;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* search box */
+nav .search{
+    width: 500px;
+    position: relative;
+    right: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+}
+nav .search .input{
+    width: 300px;
+    height: 33px;
+    outline: none;
+
+}
+
+nav .search .logo a{
+    margin: 5px;
+    background-color: blueviolet;
+    transition: 0.4s;
+    font-size: 20px;
+}
+nav .search .logo a:hover{
+    box-shadow: 5px 5px 55px rgb(241, 240, 241);
+    font-size: 30px;
+}
+
+.searchBox{
+    background-color: blueviolet;
+    padding: 3px 6px;
+    color: white;
+    transition: 0.4s;
+}
+.searchBox:hover{
+    box-shadow: 5px 5px 55px rgb(241, 240, 241);
+}
+
+
+
+
+
+
+
+/* body animation */
+
+
+.container{
+    height: 25vh;
+    width: 25vh;
+    /* border: 1px solid red; */
+    position: relative;
+    top: 35vh;
+    margin: auto;
+    align-items: center;
+    background: url(screw.png) no-repeat;
+    background-size: 100%;
+    animation: rotate linear 2s infinite;
+    opacity: 0.5;
+}
+
+@keyframes rotate{
+    100%{
+        transform: rotate3d(1,1,2,360deg);
+    }
+}
+
+
