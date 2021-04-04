@@ -1,0 +1,177 @@
+*{
+    font-family: 'EB Garamond', serif;
+    
+}
+body{
+    background-color: skyblue;
+}
+body:hover{
+    background-color: rgb(14, 182, 248);
+}
+.container{
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px 5px;
+    background-color: silver;
+    border-radius: 50px;
+    position: fixed;
+    box-shadow:13px 13px 7px gray;
+
+}
+.back {
+    top: 30px;
+    right: 70px;
+    position: absolute;
+    padding: 4px 15px;
+    border-radius: 12px;
+    background-color: silver;
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    box-shadow:5px 5px 5px gray;
+}
+
+.back:hover {
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    box-shadow:5px 5px 5px black;
+
+}
+
+.box{
+    width: 290px;
+    height: 540px;
+    margin: 20px 10px;
+    padding: 5px 5px;
+    box-shadow:10px 10px 5px gray;
+}
+
+h2{
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 35px;
+    width: 800px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: silver;
+    color: black;
+    border-radius: 60px;
+    border: 1px solid silver;
+    box-shadow:10px 10px 5px gray;
+
+}
+h2:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    box-shadow:10px 10px 5px black;
+
+}
+h3{
+    text-align: center;
+    margin: 5px;
+    font-variant: small-caps;
+    font-size: 25px;
+
+}
+h4{
+    text-align: center;
+    margin: 1px;
+    font-variant: small-caps;
+    font-size: 19px;
+}
+.box#nested{
+    width: 440px;
+   
+}
+.nested_top{
+    text-align: center;
+}
+.nested_container{
+    display: flex;
+    /* background-color: hotpink; */
+    margin: 2px 2px;
+    padding: 2px 2px;
+
+}
+
+.box#ordered{
+    background-color: #007bff;
+    border-radius: 50px; 
+    color: white; 
+}
+.box#ordered:hover{
+    background-color: blue;
+    color: white;
+    /* font-weight: bolder; */
+    
+     
+}
+
+.box#unordered{
+    background-color: #28a745;
+    border-radius: 50px;
+    color: white;
+
+}
+.box#unordered:hover{
+    background-color: green;
+    color: white;
+    /* font-weight: bolder; */
+     
+}
+
+.box#description{
+    background-color: #dc3545;
+    color: white;
+    border-radius: 50px;
+    padding-left: 15px;
+
+
+}
+.box#description:hover{
+    background-color: rgb(252, 14, 14);
+    color: white;
+    /* font-weight: bolder; */
+
+
+}
+
+.box#nested{
+    background-color: #347B98;
+    border-radius: 50px;
+    color: white;
+}
+
+.nested_box1{
+    background-color: blueviolet;
+    border-radius: 30px;
+    color: white;
+    width: 100%;
+
+}
+.nested_box1:hover{
+    background-color: rgb(121, 7, 228);
+    border-radius: 30px;
+    color: white;
+    border: 1px solid white;
+
+}
+.nested_box2{
+    background-color: hotpink;
+    border-radius: 30px;
+    color: white;
+    width: 100%;
+}
+.nested_box2:hover{
+    background-color: rgb(253, 68, 161);
+    border-radius: 30px;
+    color: white;
+    border: 1px solid white;
+
+
+}

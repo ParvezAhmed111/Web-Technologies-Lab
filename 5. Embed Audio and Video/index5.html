@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embed Audio and Video</title>
+    <link rel="stylesheet" href="style5.css">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="top">
+        <h2>Embed Audio and Video in HTML Web Page</h2>
+    </header>
+    <a href="../contents.html" class="back">Back</a>
+    <div class="container">
+        <div class="box" id="video">
+            <h3>Video Gallery</h3>
+            <h4>Videos from Youtube</h4>
+            <div class="myVideos">
+                <iframe width="200" height="150" src="https://www.youtube.com/embed/IgKWPdJWuBQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="200" height="150" src="https://www.youtube.com/embed/0NV1KdWRHck" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="200" height="150" src="https://www.youtube.com/embed/6Af6b_wyiwI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+            <h4>Videos from Local device</h4>
+            <div class="myVideos">
+                <video width="200" height="150" controls>
+                    <source src="/Web Technology Lab/5. Embed Audio and Video/Travel INSIDE a Black Hole_HIGH.mp4" type="video/mp4">
+                </video>
+                <video width="200" height="150" controls >
+                    <source src="Remote File Inclusion Vulnerabilities - Configuring PHP Settings.mp4" type="video/mp4">
+                </video>
+                <video width="200" height="150" controls src="The Quantum Entanglement THEORY Explained_HD.mp4" type="video/mp4"></video>
+            </div>
+        </div>
+
+        <div class="box" id="audio">
+            <h3>Audio Gallery</h3>
+            <h4>Audios from Local device</h4>
+            <div class="myAudio">
+                <audio controls>
+                    <source src="samsung.mpeg" type="audio/mpeg">
+                </audio>
+                <br>
+                <audio controls src="apple ringtone.mpeg" type="audio/mpeg"></audio>
+                <br>
+                <audio controls src="apple ringtone.mpeg" type="audio/mpeg"></audio>
+                
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

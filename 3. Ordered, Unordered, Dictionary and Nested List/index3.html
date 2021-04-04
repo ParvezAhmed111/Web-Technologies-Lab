@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordered, Unordered, Description and Nested List</title>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="top">
+        <h2>Ordered, Unordered, Description and Nested List</h2>
+    </header>
+    <a href="../contents.html" class="back">Back</a>
+    <div class="container">
+        <div class="box" id="ordered">
+            <h3>Ordered List</h3>
+            <ol>
+                <li>Type <strong>"default"</strong>: First item </li>
+                <li>Type <strong>"default"</strong>: Second item  </li>
+                <li>Type <strong>"default"</strong>: Third item</li>
+            </ol>
+            <ol type="1">
+                <li>Type <strong>"1"</strong>: First item </li>
+                <li>Type <strong>"1"</strong>: Second item  </li>
+                <li>Type <strong>"1"</strong>: Third item</li>
+            </ol>
+            <ol type="A">
+                <li>Type <strong>"A"</strong>: First item </li>
+                <li>Type <strong>"A"</strong>: Second item  </li>
+                <li>Type <strong>"A"</strong>: Third item</li>
+            </ol>
+            <ol type="a">
+                <li>Type <strong>"a"</strong>: First item </li>
+                <li>Type <strong>"a"</strong>: Second item  </li>
+                <li>Type <strong>"a"</strong>: Third item</li>
+            </ol>
+            <ol type="I">
+                <li>Type <strong>"I"</strong>: First item </li>
+                <li>Type <strong>"I"</strong>: Second item  </li>
+                <li>Type <strong>"I"</strong>: Third item</li>
+            </ol>
+            <ol type="i">
+                <li>Type <strong>"i"</strong>: First item </li>
+                <li>Type <strong>"i"</strong>: Second item  </li>
+                <li>Type <strong>"i"</strong>: Third item</li>
+            </ol>
+            
+
+        </div>
+        <div class="box" id="unordered">
+            <h3>Unordered List</h3>
+            <ul>
+                <li>Type <strong>"default"</strong>: First item </li>
+                <li>Type <strong>"default"</strong>: Second item  </li>
+                <li>Type <strong>"default"</strong>: Third item</li>
+            </ul>
+            <ul type="disc">
+                <li>Type <strong>"disc"</strong>: First item </li>
+                <li>Type <strong>"disc"</strong>: Second item  </li>
+                <li>Type <strong>"disc"</strong>: Third item</li>
+            </ul>
+            <ul type="square">
+                <li>Type <strong>"square"</strong>: First item </li>
+                <li>Type <strong>"square"</strong>: Second item  </li>
+                <li>Type <strong>"square"</strong>: Third item</li>
+            </ul>
+            <ul type="circle">
+                <li>Type <strong>"circle"</strong>: First item </li>
+                <li>Type <strong>"circle"</strong>: Second item  </li>
+                <li>Type <strong>"circle"</strong>: Third item</li>
+            </ul>
+            <ul type="none">
+                <li>Type <strong>"none"</strong>: First item </li>
+                <li>Type <strong>"none"</strong>: Second item  </li>
+                <li>Type <strong>"none"</strong>: Third item</li>
+            </ul>
+
+        </div>
+        <div class="box" id="description">
+            <h3>Description</h3>
+            <dl>
+                <dt>HTML</dt>
+                <dd>HyperText Markup Language</dd>
+                <dt>CSS</dt>
+                <dd>Cascading Style Sheet</dd>
+                <dt>PHP</dt>
+                <dd>Hypertext Preprocessor</dd>
+                <dt>SQL</dt>
+                <dd>Structured Query Language</dd>
+                
+            </dl>
+        </div>
+        <div class="box" id="nested">
+            <header class="nested_top">
+                <h3>Nested List</h3>
+                <h4>Full Stack Developer</h4>
+            </header>
+            <div class="nested_container">                
+                <div class="nested_box1">
+                    <ul type="disc">
+                        <li>Front End</li>
+                        <ol type="1">
+                            <li>Basics</li>
+                            <ul type="circle">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <li>Frameworks</li>
+                            <ul type="square">
+                                <li>React</li>
+                                <li>Vue</li>
+                                <li>Angular</li>
+                                <li>Webpack</li>
+                            </ul>
+                            <li>Styles</li>
+                            <ul type="none">
+                                <li>Bootstrap</li>
+                                <li>Material UI</li>
+                            </ul>
+                        </ol>
+        
+                        <li>Back End</li>
+                        <ol type="A">
+                            <li>Technology</li>
+                            <ul type="circle">
+                                <li>PHP</li>
+                                <li>Node</li>
+                                <li>Ruby on Rails</li>
+                                <li>Java (Spring)</li>
+                                <li>ASP.NET</li>
+                                <li>Redis</li>
+                            </ul>
+                        </ol>                       
+                    </ul>
+                </div>
+                <div class="nested_box2">
+                    <ul>
+                        <li>Database</li>
+                        <ol type="a">
+                            <li>RDBMS</li>
+                            <ul type="circle">
+                                <li>MSSQL</li>
+                                <li>MySQL</li>
+                                <li>Postgres</li>
+                            </ul>
+                            <li>NoSQL</li>
+                            <ul type="disc">
+                                <li>Mongo</li>
+                                <li>Casandra</li>
+                                <li>CouchDB</li>
+                                <li>Elasticsearch</li>
+                            </ul>
+                            <li>Graph</li>
+                            <ul type="square">
+                                <li>Neo4j</li>
+                                <li>ArangoDB</li>
+                            </ul>
+                            <li>Message Queues</li>
+                            <ul type="none">
+                                <li>Kafka</li>
+                                <li>SQS</li>
+                                <li>ZeroMQ</li>
+                                <li>RabbitMQ</li>
+                            </ul>
+                        </ol>   
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
