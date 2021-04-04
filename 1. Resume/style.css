@@ -1,0 +1,175 @@
+* {
+    padding: 0px;
+    margin: 2px 2px;
+    font-family: 'Padauk', sans-serif;
+}
+body{
+    background-color:  #92ccfc;
+}
+
+.outer {
+    width: 950px;
+    /* height: 2600px; */
+    /* border: 1px solid black; */
+    margin: 20px auto;
+    /* background-color:#e7eed8; */
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 25px 20px 13px #4eadfa;
+}
+
+.outer h1 {
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 120px;
+    color: #2196f3;
+    text-shadow: 3px 3px 3px #8ac8fc ;
+    font-variant: small-caps;
+    font-size: 45px;
+    
+}
+
+img {
+    width: 120px;
+    height: 150px;
+    float: right;
+    margin: 5px 50px;
+    border-radius: 47%;
+}
+
+p#heading {
+    margin: 20px;
+    font-size: 14px;
+    text-align: center;
+    margin-left: 120px;
+}
+
+p {
+    margin: 0px 15px;
+    text-align: justify;
+}
+
+.btn {
+    padding: 0px 10px;
+    background-color: white;
+    border-radius: 13px;
+    text-decoration: none;
+    color: #4eadfa;
+    border: 1px solid #4eadfa;
+    transition-duration: 0.5s;
+    /* background-color: rgb(209, 252, 150); */
+}
+
+.btn:hover {
+    background-color: #4eadfa;
+    color: white;
+    /* font-weight: bold; */
+    border: 1px solid #4eadfa;
+}
+
+.border {
+    width: 94%;
+    padding: 5px 20px;
+    /* background-color: rgb(160 157 157 / 54%); */
+    background-color: #4eadfa;
+    border: 1px solid #4eadfa;
+    color: white;
+    margin: 15px auto;
+    border-radius: 15px;
+    font-size: large;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    box-shadow: 5px 5px 4px #8ac8fc;
+}
+
+.border:hover {
+    background-color: white;
+    border: 1px solid #4eadfa;
+    color: #4eadfa;
+}
+
+.table,
+th,
+td {
+    border: 1px solid black;
+    margin: 8px 4px;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+
+.table {
+    width: 900px;
+    margin: auto;
+}
+
+th {
+    background-color: rgb(160 157 157 / 54%);
+}
+
+.table#personalInfo {
+    margin: 0px auto;
+}
+
+.personalInfoColor {
+    background-color: rgb(160 157 157 / 54%);
+    font-weight: bold;
+}
+
+ul {
+    margin-left: 40px;
+}
+
+.hobbies {
+    margin-bottom: 130px;
+}
+
+.hobOne {
+    float: left;
+}
+
+.hobTwo ul {
+    float: right;
+    margin-right: 300px;
+}
+
+.declaration {
+    margin-bottom: 64px;
+}
+
+.declaration p {
+    font-size: medium;
+    margin: 13px 24px;
+    /* margin-bottom: 50px; */
+}
+
+.declaration #statement {
+    text-align: left;
+    padding-bottom: 140px;
+}
+
+.declaration #name {
+    float: right;
+    /* padding-bottom: 30px; */
+    /* position: fixed; */
+}
+
+.declaration #place {
+    float: left;
+    /* padding-bottom: 30px; */
+    /* position: fixed; */
+}
+
+.declaration img {
+    border-radius: 0%;
+    width: 20%;
+    height: 70px;
+    padding-top: 107px;
+    display: block;
+    margin: auto;
+}
+
+.protectedInfo{
+    user-select: none;
+    -webkit-user-select: none;
+}

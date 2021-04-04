@@ -1,0 +1,166 @@
+* {
+    font-family: 'EB Garamond', serif;
+}
+
+.container {
+    width: 1000px;
+    height: 1000px;
+    /* border: 1px solid black; */
+    margin: auto;
+    position: relative;
+}
+
+.back {
+    top: 10px;
+    right: 22px;
+    position: absolute;
+    padding: 4px 11px;
+    border-radius: 15px;
+    background-color: #178ef0;
+    color: white;
+    text-decoration: none;
+}
+
+.back:hover {
+    border: 1px solid #178ef0;
+    background-color: white;
+    color: #178ef0;
+    font-size: 17px;
+}
+
+h1,
+h3 {
+    color: #178ef0;
+    text-align: center;
+    border: 1px solid #178ef0;
+    border-radius: 30px;
+    margin: auto;
+    padding: 3px 4px;
+}
+
+h1:hover {
+    background-color: #178ef0;
+    color: white;
+}
+
+h3:hover {
+    background-color: #178ef0;
+    color: white;
+}
+
+h3#cse {
+    width: 15%;
+}
+
+h1 {
+    margin-top: 40px;
+    width: 630px;
+}
+
+h3 {
+    margin-top: 20px;
+    width: 500px;
+}
+
+h4 {
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+}
+
+.table,
+th,
+td {
+    border: 1px solid black;
+    margin: 8px auto;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+th {
+    background-color: #b2dbfc;
+}
+
+
+/* .tab {
+display: inline-block;
+margin-left: 40px;
+} */
+
+.day {
+    /* font-size: large; */
+    font-weight: bold;
+    padding: 0px 25px;
+    background-color: #b2dbfc;
+    font-size: large;
+}
+
+.ur,
+.br,
+.bl {
+    font-size: 10px;
+}
+
+.ur {
+    text-align: right;
+    margin-left: 69px;
+}
+
+.bl {
+    text-align: left;
+    display: inline block;
+    margin-right: 40px;
+    /* padding: 40px; */
+}
+
+.br {
+    text-align: right;
+    /* padding: 40px; */
+}
+
+.mid {
+    text-align: center;
+    /* padding: 0px 40px; */
+    margin: 5px 16px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+/* teachers name and subjects */
+
+.teachers,
+.subjects {
+    display: inline-block;
+    box-sizing: border-box;
+    /* height: 300px; */
+    /* border: 1px solid black; */
+    margin: 20px 30px;
+    padding: 0px 35px;
+    width: 410px;
+}
+
+#head {
+    font-size: 22px;
+    font-weight: bolder;
+    border: 1px solid #178ef0;
+    color: #178ef0;
+    padding: 4px 144px;
+    border-radius: 30px;
+}
+
+#head:hover {
+    background-color: #178ef0;
+    color: white;
+}
+
+.table#data {
+    font-size: 10px;
+    margin: 10px 3px;
+    width: 410px;
+}
+
+.table#data tr:nth-child(odd){
+    background-color: #b2dbfc;
+
+}
